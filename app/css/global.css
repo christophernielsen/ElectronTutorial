@@ -1,0 +1,28 @@
+@import './font.css';
+
+:root {
+    --main-bg-color: #f1c3b8;
+    --font-family: 'Inter', sans-serif;
+    --font-headline-size: 6em;
+    --font-headline-color: #112378;
+    --font-bodytext-size: 1em;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--main-bg-color);
+}
+
+.container {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: var(--font-headline-size);
+    color: var(--font-headline-color);
+    margin: 0;
+}
+
+p {
+    font-size: var(--font-bodytext-size);
+}

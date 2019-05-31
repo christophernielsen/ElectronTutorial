@@ -1,0 +1,9 @@
+@import 'global.css';
+
+.container img {
+    width: 50%;
+    position: relative;
+    left: 10rem;
+    float: right;
+    margin: 0;
+}
